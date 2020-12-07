@@ -1,0 +1,299 @@
+section {
+  display: grid;
+  place-items: center;
+}
+
+.homepage {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px;
+  width: 1055px;
+  justify-items: center;
+}
+
+header {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+nav {
+  justify-content: center;
+  color: white;
+  margin-top: -8%;
+  margin-bottom: 50px;
+  word-spacing: 105px;
+  padding: 10px;
+  font-family: 'Anton', sans-serif;
+  padding-right: 41px;
+}
+
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.HP {
+  width: 320px;
+  height: 400px;
+}
+
+.logo {
+  width: 820px;
+  height: 200px;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  color: white;
+  justify-content: center;
+  font-family: 'Mulish', sans-serif;
+  margin-top: 65px;
+  font-size: 18px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 23px;
+  margin-top: -5px;
+}
+
+h3:hover {
+  color: #54daff;
+}
+
+a {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer a {
+  display: block;
+  font-size: 18px;
+  padding-right: 35px;
+  border: none;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+form {
+  color: #54daff;
+  font-family: 'Mulish', sans-serif;
+}
+
+h4 {
+  color: white;
+  margin-top: 70px;
+  font-family: 'Mulish', sans-serif;
+}
+
+label {
+  padding-right: 10px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  width: 1180px;
+  height: 960px;
+  justify-content: center;
+}
+
+.portfolio img {
+  width: 250px;
+  height: 160px;
+}
+
+.wedding1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.wedding2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.wedding3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.commercial1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.commercial2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.commercial3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.travel1 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.travel2 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.travel3 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.weddingH {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.commercialH {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.travelH {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+
+.animal1 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.animal2 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.animal3 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.animalH {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+
+.people1 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.people2 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.people3 {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+.peopleH {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 900px;
+  height: 500px;
+  place-items: center;
+  padding-left: 28px;
+  margin-top: -1%
+}
+
+.about img {
+  width: 300px;
+  height: 200px;
+}
+
+.sunflower {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.weddingpic {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.aboutme {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-top: -33%;
+  padding-left: 35px;
+}
+
+.p2 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  margin-top: -1%;
+  padding-right: 2px;
+  text-align: justify;
+  padding-left: 35px;
+  line-height: 23px;
+}
+
+.p3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding-right: 2px;
+  text-align: center;
+  padding-left: 35px;
+  padding-top: 22%;
+  line-height: 23px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+}
+
+.p3 a {
+  font-size: 18px;
+  border: none;
+}
+
+.p3 a:hover {
+  color: #54daff;
+}
+
+.slotcanyon {
+  width: 820px;
+  height: 500px;
+  margin-top: 2%;
+  padding-bottom: 20px;
+}
